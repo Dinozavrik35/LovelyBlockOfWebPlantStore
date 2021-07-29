@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Plant Store</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Solway:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="/pictures/plant_icon.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="stylesheet" href="/style.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <img class="logo__img" src="/pictures/plant_icon.png" alt="logo">
+                    <a class="logo__text" href="">
+                        Plants4all
+                    </a>
+                    <i class="fas fa-bars burger" id="burger" onclick="showMenu()"></i>
+                    <ul class="burger__nav" id="burger_nav">
+                        <i class="fas fa-times close" onclick="closeMenu()"></i>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Orders</li>
+                        <li>Contact</li>
+                        <li>
+                            <img class="cart__icon" src="/pictures/cart.png" alt="cart">
+                            <img class="account__img" src="/pictures/girl.png" alt="account">
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__info">
+                    <div class="navbar">
+                        <div class="nav__item">Home</div>
+                        <div class="nav__item">About</div>
+                        <div class="nav__item">Orders</div>
+                        <div class="nav__item">Contact</div>
+                    </div>
+                    <div class="account">
+                        <img class="cart__icon" src="/pictures/cart.png" alt="cart">
+                        <img class="account__img" src="/pictures/girl.png" alt="account">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="main__text">
+                “The planting of a tree, especially one of the 
+                long-living hardwood trees, is a gift which you 
+                can make to posterity at almost no cost and with 
+                almost no trouble, and if the tree takes root it 
+                will far outlive the visible effect of any of 
+                your other actions, good or evil.”
+                <br>
+                <span>― George Orwell</span>
+            </div>
+            <button class="main__btn">
+                Buy Now
+            </button>
+        </div>
+        <script src="/script.js"></script>
+    </body>
+</html>
